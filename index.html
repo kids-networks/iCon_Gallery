@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+  <meta charset = "UTF-8">
+  <title>iCon Gallery</title>
+  <link rel = "icon" href = "Images/iCon_Logo.gif">
+</head>
+
+<body>
+  <style>
+    body  {
+      background-color: Aqua;
+      font-family: Calibri, -apple-system, system-ui, Arial;
+    }
+    #content  {
+      background-color: black;
+      color: White;
+    }
+  </style>
+  <script type = "module"src = "https://pyscript.net/releases/2023.12.1/core.js"></script>
+  <script type = "py" src = "login_sys/main.py"></script>
+  <div id = "content">
+    <h1>Log In</h1>
+    <input id = "username" placeholder = "Type in username ...">
+    <br>
+    <input id = "password" placeholder = "Type in password ...">
+    <br>
+    <button id = "login" py-click = "login">Log In</button>
+    </div>
